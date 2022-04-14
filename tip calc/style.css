@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100vh;
+    background: linear-gradient(purple,red,black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div{
+    max-width: 500px;
+    height: auto;
+    background-color: black;
+    /* opacity: 0.8; */
+    padding: 50px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+h1{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px red;
+}
+label{
+    display: block;
+    text-transform: capitalize;
+    margin-top: 15px;
+    color: red;
+}
+input{
+    width: 450px;
+    padding: 5px 10px;
+}
+input :disabled{
+    background-color: white;
+}
+button{
+    text-transform: capitalize;
+    font-size: 15px;
+    background: linear-gradient(red,black);
+    color: white;
+    margin-top: 20px;
+    padding:2px 10px ;
+    border-radius: 5px;
+
+}
